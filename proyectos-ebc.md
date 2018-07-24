@@ -102,6 +102,8 @@ Los siguientes proyectos han sido migrados al nuevo esquema de CI
 | Biblioteca bluebottlebiz | 8098 | 4865 |
 | Biblioteca gale | 8099 | 4866 |
 | Biblioteca springer | 8100 | 4867 |
+| Api seguridad | 8101 | 4868 |
+| Factura Manual | 8102 | 4869 |
 
 
 
