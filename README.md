@@ -21,6 +21,7 @@
 15. [Ejemplo de CI](ejemplo-de-ci.md)
 16. [Proyectos EBC](proyectos-ebc.md)
 17. [Agregar nuevo proyecto al esquema de CI](agregar-nuevo-proyecto-al-esquema-de-ci.md)
+18. [Realizar respaldos y cargas de imagenes en docker](docker-back-image.md)
 
 ![](/assets/ci1.jpg)
 
