@@ -16,4 +16,6 @@
 * [Proyectos EBC ](proyectos-ebc.md)
 * [Ejemplo de CI](ejemplo-de-ci.md)
 * [Agregar nuevo proyecto al esquema de CI](agregar-nuevo-proyecto-al-esquema-de-ci.md)
+* [Realizar respaldos y cargas de imagenes en docker](docker-back-image.md)
+* [Realizar el depurado de Docker](clean-docker.md)
 

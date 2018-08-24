@@ -22,6 +22,7 @@
 16. [Proyectos EBC](proyectos-ebc.md)
 17. [Agregar nuevo proyecto al esquema de CI](agregar-nuevo-proyecto-al-esquema-de-ci.md)
 18. [Realizar respaldos y cargas de imagenes en docker](docker-back-image.md)
+19. [Realizar el depurado de Docker](clean-docker.md)
 
 ![](/assets/ci1.jpg)
 
