@@ -9,7 +9,7 @@
 
 ### Servers Disponibles
 
-* Jenkins: [http://172.31.100.23:8080/](http://172.31.100.23:8080/) 
+* Jenkins: [http://172.31.100.23:8080/](http://172.31.100.23:8080/)
 * Desarrollo: [http://172.31.100.25/](http://172.31.100.25/)
 * QA: [http://172.31.100.24/](http://172.31.100.24/)![](/assets/ebc2.png)
 
@@ -19,7 +19,7 @@ Este server contendrá lo siguiente:
 
 * Directorio **images\_**_**jenkins**_**\_slave** \(Dockerfile para desplegar Jenkins Slaves, id\_rsa y id\_rsa.pub del server\)
 * Directorio **sonatype-work **\(Workspace de Nexus\)
-* Archivo **repository.zip** \(Carpeta .m2 de Maven\) 
+* Archivo **repository.zip** \(Carpeta .m2 de Maven\)
 
 ![](/assets/ci1.png)
 
@@ -34,10 +34,10 @@ Aplicaciones disponibles:
 
 Contendrá lo siguiente:
 
-* Directorio **deploys** para guardar los archivos .war y .properties generados 
+* Directorio **deploys** para guardar los archivos .war y .properties generados
 * Directorio **dockerFiles** para guardar los dockerfile de Glassfish 4 y grails
 * Directorio **ebcHub** para contener archivos externos de las aplicaciones a desplegar
-* Directorio **folder\_nginx** para guardar el contenido estático de los reportes de pruebas 
+* Directorio **folder\_nginx** para guardar el contenido estático de los reportes de pruebas
   * Cada proyecto debera tener una carpeta en este directorio, con los subdirectorios **master y QA**
 * Directorio **logs**
 * **ojdbc8.jar** jar de conexión a base de datos
@@ -48,14 +48,14 @@ Contendrá lo siguiente:
 
 Aplicaciones:
 
-* Nginx 
+* Nginx
 * Aplicativos desplegados en desarrollo
 
 ![](/assets/devl3.png)
 
 ### Server QA
 
-* Directorio **deploys** para guardar los archivos .war y .properties generados 
+* Directorio **deploys** para guardar los archivos .war y .properties generados
 * Directorio **dockerFiles** para guardar los dockerfile de Glassfish 4 y grails
 * Directorio **ebcHub** para contener archivos externos de las aplicaciones a desplegar
 * Directorio **logs**
@@ -104,6 +104,6 @@ Los siguientes proyectos han sido migrados al nuevo esquema de CI
 | Biblioteca springer | 8100 | 4867 |
 | Api seguridad | 8101 | 4868 |
 | Factura Manual | 8102 | 4869 |
-
+| Factura Electrónica | 8103 | 4870 |
 
 
