@@ -12,7 +12,7 @@ El siguiente comando funciona para el limpiado de las imagenes en cache y imagen
 
 `docker rmi $(docker images -q -f dangling=true)`
 
-Para complementar este funcion, se creo una tarea en el jenkins para programar un tarea de ejecucion cada cierto tiempo (configurable). ejecuntando un sh para detonante de el comando anterior.
+Para complementar este funcion, se creo una tarea en el jenkins para programar un tarea de ejecucion cada cierto tiempo (configurable se quedo con una ejecucion cada hora). ejecuntando un sh para detonante de el comando anterior.
 
 ![](/assets/jenkinsCleanDocker.png)
 ![](/assets/shDockerClean.png)
