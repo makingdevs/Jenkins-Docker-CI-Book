@@ -17,3 +17,15 @@ Para complementar este funcion, se creo una tarea en el jenkins para programar u
 ![](/assets/jenkinsCleanDocker.png)
 ![](/assets/shDockerClean.png)
 
+El archico clean docker es el siguiente 
+
+```
+#!/bin/sh
+
+docker rmi $(docker images -q -f dangling=true)
+
+exit 0;
+```
+
+Los servers que quedan configurados son el 172.31.100.25(DEVL CLOUD), 172.31.100.24(QA CLOUD), 10.31.23.60(QA local)
+
