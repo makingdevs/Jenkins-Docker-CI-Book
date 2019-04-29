@@ -23,6 +23,7 @@
 17. [Agregar nuevo proyecto al esquema de CI](agregar-nuevo-proyecto-al-esquema-de-ci.md)
 18. [Realizar respaldos y cargas de imagenes en docker](docker-back-image.md)
 19. [Realizar el depurado de Docker](clean-docker.md)
+20. [Instalacion Jenkins CD ](jenkins-CD-instalacion.md)
 
 ![](/assets/ci1.jpg)
 
